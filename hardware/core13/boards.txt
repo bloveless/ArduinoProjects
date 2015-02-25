@@ -1,0 +1,34 @@
+###########################################################################
+ 
+	attiny13.name=Attiny13 @ 128 KHz (internal watchdog oscillator)
+	attiny13.upload.using=arduino:arduinoisp
+	attiny13.upload.maximum_size=1024
+	attiny13.upload.speed=250
+	attiny13.bootloader.low_fuses=0x68
+	attiny13.bootloader.high_fuses=0xFF
+	attiny13.build.mcu=attiny13
+	attiny13.build.f_cpu=128000
+	attiny13.build.core=core13
+	 
+	 
+###############################################################
+	 
+	attiny13at4.name=ATtiny13 @ 4.8MHz (internal 4.8 MHz clock)
+	attiny13at4.upload.using=arduino:arduinoisp
+	attiny13at4.bootloader.low_fuses=0x69
+	attiny13at4.bootloader.high_fuses=0xff
+	attiny13at4.upload.maximum_size=1024
+	attiny13at4.upload.speed=9600
+	attiny13at4.build.mcu=attiny13
+	attiny13at4.build.f_cpu=600000
+	attiny13at4.build.core=core13
+	 
+###############################################################
+	 
+	attiny13at9.name=ATtiny13 @ 9.6MHz (internal 9.6 MHz clock)
+	attiny13at9.bootloader.low_fuses=0x7a
+	attiny13at9.bootloader.high_fuses=0xff
+	attiny13at9.upload.maximum_size=1024
+	attiny13at9.build.mcu=attiny13
+	attiny13at9.build.f_cpu=1200000
+	attiny13at9.build.core=core13
